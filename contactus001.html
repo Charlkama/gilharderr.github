@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="Viewport" content="with=device-width, initial-scale=1.0">
+    <title>Training College Website</title>
+    <link rel="stylesheet" href="contactus001.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@200&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    
+</head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="contactus001.html"><img src="images/presenta13yes.png"></a>
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onlick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index001.html">HOME</a></li>
+                        <li><a href="aboutus001.html">ABOUT</a></li>
+                       	<li><a href="ourphotos001.html">PHOTOS</a></li>
+                         <!---- <li><a href="ourproducts001.html">PRODUCTS</a></li>
+                        <li><a href="contactus001.html">CONTACTS</a></li>--->
+                    </ul>
+                </div>
+                <<i class="fa fa-bars"></i>
+                <i class="fa fa-bars" onlick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h2><big>Contact Us</big></h2>
+                <p>
+                    From wherever you are, you are most welcomed to inquire more on our services, to enroll and partake, <br>to place an order or use these details for referral. We will revert and give the solution you have been desiring from us. 
+                    
+                </p>
+                <!--- <a href="" class="hero-btn">Visit us to know more....</a>--->
+            </div>      
+        </section>
+        <nav>
+        <!--- <a href="contactus001.html"><img src="images/Real/Maritom Designs Logo.jpg" width="4.5%" height="3%   "></a> ---->
+        <div class="contact-in">
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.960962649951!2d36.90902064108424!3d-1.187817917496132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3fab356b985b%3A0xd6fbd0ae0c3dbe67!2sFarmer&#39;s%20Choice%20Limited!5e0!3m2!1sen!2ske!4v1639655738765!5m2!1sen!2ske" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact-form">
+                <h1>Contact Us</h1>
+                <form>
+                    <input type="text" placeholder="Name" class="contact-form-txt" />
+                    <input type="text" placeholder="Email" class="contact-form-txt"/>
+                    <textarea placeholder="Message" class="contact-form-txtarea"></textarea>
+                    <input type="submit" name="submit" class="contact-form-btn"/>
+                </form>
+            </div>
+        </div>
+        </nav>
+    <!------ Footer ------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>For more information on GilHarder, kindly use any of these channels to interact and you will be furnished with all the information you needed. </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i> <a href="images/FB1.png">Facebook</a>
+        <i class="fa fa-twitter"></i> <a href="images/Twi.png">Twitter</a>
+        <i class="fa fa-instagram"></i> <a href="images/Insta.jpeg">Instagram</a>
+        <i class="fa fa-linkedin"></i> <a href="images/Lnkd.png">Linkedin</a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Charles K. O.</p>
+</section>
+    
+        <!------JavaScript for Toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
